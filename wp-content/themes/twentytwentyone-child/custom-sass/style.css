@@ -1,0 +1,337 @@
+h1, h2, h3, h4, h5, a {
+  font-family: Lora !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: Source Sans Pro !important;
+}
+
+.site-main > * {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+
+#main.site-main {
+  padding-top: 0 !important;
+}
+
+.site-title a {
+  text-decoration: none;
+}
+
+.site-branding a:hover {
+  color: #c3141c !important;
+}
+
+.primary-navigation .current-menu-item > a:first-child, .primary-navigation .current_page_item > a:first-child:focus {
+  border-radius: 12px;
+  -webkit-text-decoration: double !important;
+  text-decoration: double !important;
+}
+
+:hover {
+  text-decoration: none !important;
+}
+
+:focus {
+  background-color: transparent !important;
+}
+
+.site-header .has-title-and-headline {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.site-header {
+  padding-bottom: 0 !important;
+}
+
+.primary-navigation a:hover {
+  color: #DA161F !important;
+  border-radius: 12px;
+  list-style-type: none;
+}
+
+.primary-navigation .primary-menu-container ul .menu-item a {
+  font-size: smaller;
+}
+
+.card {
+  margin: 5% 0;
+  background: initial;
+  padding: 5%;
+  border-radius: 7px;
+  color: #FFEE71;
+  border: 4px solid #753121 !important;
+  color: #b65833;
+}
+
+.imgs {
+  max-width: 55% !important;
+  display: block;
+  margin: 0 auto;
+}
+
+.tests {
+  text-align: justify;
+  margin-bottom: 5%;
+  border-bottom: black solid 15%;
+}
+
+.block {
+  display: block;
+}
+
+.buttonSale {
+  text-align: center !important;
+  margin-bottom: 1em;
+}
+
+.bookSale {
+  background: linear-gradient(-237deg, #753121, #b65833, #e88d34) !important;
+  color: white !important;
+  border: none;
+  border-radius: 10px;
+}
+
+.buttonCenter {
+  background: linear-gradient(-237deg, #753121, #b65833, #e88d34) !important;
+  color: white !important;
+  width: 200px;
+  margin: 14px 0;
+  font-size: smaller;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* style for Slider */
+.front-page-title {
+  position: absolute;
+  display: block;
+  text-align: center;
+  max-width: 30%;
+  margin: auto;
+  z-index: 1;
+}
+
+.pic {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.book-style {
+  display: block;
+  margin: 0 auto;
+  max-width: 88%;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 5% !important;
+}
+
+.spacer {
+  padding: 3em !important;
+}
+
+.nf-field-description p {
+  font-size: x-large;
+}
+
+.fade-in {
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.004;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-out {
+  animation: fadeOUT ease 9s;
+  -webkit-animation: fadeOUT ease 9s;
+  -moz-animation: fadeOUT ease 9s;
+  -o-animation: fadeOUT ease 9s;
+  -ms-animation: fadeOUT ease 9s;
+}
+
+@keyframes fadeOUT {
+  0% {
+    opacity: 0.004;
+  }
+  50% {
+    max-width: 40%;
+    opacity: 0.5;
+  }
+  100% {
+    max-width: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeOUT {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.metaslider.ms-theme-outline .flexslider ol.flex-control-nav:not(.flex-control-thumbs) {
+  bottom: -2em !important;
+}
+
+.flex-prev, .flex-next {
+  padding: 0 !important;
+  border-radius: 20%;
+  height: 0;
+  max-width: 0;
+  width: 0;
+}
+
+.news-page {
+  text-align: center;
+  border-bottom: 2px solid;
+}
+
+.wp-rss-template-container a {
+  list-style: none;
+  font-size: x-large;
+  padding-top: 3em;
+}
+
+.has-background-white .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button):not(.menu-item .menu-item-type-post_type .menu-item-object-page):not(.primary-navigation a):not(.site-branding a) {
+  color: green !important;
+  background-color: white !important;
+  padding: 0 !important;
+}
+
+.wp-rss-template-container {
+  padding-top: 3em;
+}
+
+/* Is this needed? */
+/* .feed-item {
+  list-style-type: none;
+  background-color: red;
+  color: firebrick;
+} */
+.wp-rss-template-container {
+  margin: 4em;
+}
+
+/* Is this needed? */
+/* .feed-item {
+  display: inline-block;
+  text-align: center;
+  border-bottom: solid 1px gray;
+  width: 100%;
+} */
+.wpra-item-list--default {
+  padding-left: 0 !important;
+}
+
+div.wpra-list-template .wpra-item-list a {
+  text-decoration: none;
+}
+
+/* Is this code I need? */
+/* li .wpra-item, .feed-item, .thisiscustomcode {
+  color: hotpink !important;
+} */
+@media screen and (min-width: 310px) {
+  .bookSale {
+    margin-top: 10%;
+  }
+
+  .pic {
+    max-width: 100%;
+  }
+
+  .book-style {
+    max-width: 58%;
+    padding-bottom: 1em;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 549px) {
+  .pic {
+    max-width: 81%;
+  }
+
+  .bookSale {
+    margin-top: 4%;
+  }
+
+  .book-style {
+    max-width: 50%;
+    padding-bottom: 0;
+  }
+}
+@media screen and (min-width: 550px) {
+  .pic {
+    max-width: 60%;
+  }
+
+  .bookSale {
+    margin-top: 4%;
+  }
+
+  .book-style {
+    max-width: 30%;
+    padding-bottom: 0;
+  }
+
+  .spacer {
+    padding: 1em 3em 3em 3em !important;
+  }
+}
+@media screen and (min-width: 680px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 5%;
+         column-gap: 5%;
+    row-gap: 5%;
+  }
+
+  :last-child {
+    grid-column: span 2;
+  }
+
+  .card {
+    margin: 1% 0 !important;
+  }
+}
+@media screen and (min-width: 850px) {
+  .pic {
+    max-width: 30%;
+  }
+
+  .book {
+    max-width: 30%;
+  }
+}/*# sourceMappingURL=style.css.map */
